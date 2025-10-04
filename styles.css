@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px; /* spacing between cells */
+  width: 60%;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff; 
+}
+
+
+.gray {
+  background-color: #f2f2f2;
+}
+
+th {
+  font-weight: 900;
+  font-size: 22px;
+}
